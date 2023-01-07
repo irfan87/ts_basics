@@ -1,5 +1,5 @@
 function testRun(props) {
     return props;
 }
-var testRunResult = testRun("test");
+var testRunResult = testRun({ name: "John" });
 console.log(testRunResult);
