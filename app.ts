@@ -1,11 +1,7 @@
-interface Input {
-	name: string;
-}
-
-function testRun(props: Input) {
+function testRun(props) {
 	return props;
 }
 
-let testRunResult = testRun({ name: "John" });
+let testRunResult = testRun("test");
 
 console.log(testRunResult);
