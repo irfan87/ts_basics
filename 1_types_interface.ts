@@ -1,8 +1,5 @@
-interface MyInterface {
-	property1: string;
-	property2: string;
-	property3: string;
-}
+import { MyInterface } from "./interface/property.interface";
+import { MyType } from "./types/user.types";
 
 // return the input
 function myReturnFunction(input: MyInterface): MyInterface {
@@ -92,10 +89,6 @@ console.log(myAsyncFuntionResult);
 console.log(testRunFunctionResult);
 console.log(testRunReturnFunctionResult);
 console.log(testRunAsyncFunctionResult);
-
-type MyType = {
-	property1: string;
-};
 
 // we can extends type as the interface by using '&' symbol
 type MyTypeTwo = {

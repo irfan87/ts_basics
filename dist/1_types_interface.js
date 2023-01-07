@@ -1,3 +1,4 @@
+"use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -34,7 +35,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-var _this = this;
+exports.__esModule = true;
 // return the input
 function myReturnFunction(input) {
     return input;
@@ -73,7 +74,7 @@ var testRunFunction = function (input) {
 var testRunReturnFunction = function (input) {
     return input;
 };
-var testRunAsyncFunction = function (input) { return __awaiter(_this, void 0, void 0, function () {
+var testRunAsyncFunction = function (input) { return __awaiter(void 0, void 0, void 0, function () {
     return __generator(this, function (_a) {
         return [2 /*return*/, input];
     });
@@ -102,7 +103,7 @@ console.log(myAsyncFuntionResult);
 console.log(testRunFunctionResult);
 console.log(testRunReturnFunctionResult);
 console.log(testRunAsyncFunctionResult);
-var myAsyncFunctionType = function (input) { return __awaiter(_this, void 0, void 0, function () {
+var myAsyncFunctionType = function (input) { return __awaiter(void 0, void 0, void 0, function () {
     return __generator(this, function (_a) {
         return [2 /*return*/, input];
     });

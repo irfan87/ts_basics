@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node 4_utilities.ts"
+    "dev": "ts-node 1_types_interface.ts"
   },
   "keywords": [],
   "author": "",
