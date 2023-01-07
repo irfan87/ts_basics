@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "ts-node 1_types_interface.ts"
   },
   "keywords": [],
   "author": "",
